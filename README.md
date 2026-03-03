@@ -329,10 +329,10 @@ Client → API Gateway → Microservices (JWT validated)
 
 # Security Flow
 
-• User logs in via Keycloak
-• Keycloak issues JWT token
-• Gateway validates token
-• Gateway forwards request to services
+- User logs in via Keycloak
+- Keycloak issues JWT token
+- Gateway validates token
+- Gateway forwards request to services
 
 ---
 
@@ -374,7 +374,7 @@ This project is a microservices-based architecture for a fitness recommendation 
 - **MongoDB** hosted on **MongoDB Atlas**  
 
 ### 2. Message Broker
-- **RabbitMQ** deployed on **CloudAMQ**
+- **RabbitMQ** deployed on **CloudAMQP**
 
 ### 3. Backend Services
 All backend services are deployed on **Render** using Docker containers:
@@ -405,6 +405,14 @@ All backend APIs are fully documented and can be explored via **Postman**: [http
 
 ### 4. Frontend
 - **React Application** hosted on **Netlify**: [https://fitlexa.netlify.app](https://fitlexa.netlify.app)
+
+---
+
+# Demo Credentials:
+- Username: user1
+- Password: password1
+  
+Feel free to register your own, but using these demo creds saves some database space on my free-tier hosting. 😉
 
 ---
 
