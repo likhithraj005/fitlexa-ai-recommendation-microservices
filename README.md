@@ -9,7 +9,7 @@ This project demonstrates real‑world backend engineering practices including m
 # Architecture Overview
 
 ## Architecture Diagram
-![Architecture Diagram](https://github.com/likhithraj005/fitlexa-ai-recommendation-microservices/blob/main/architecture-diagram.png)
+![Architecture Diagram](https://github.com/likhithraj005/fitlexa-ai-recommendation-microservices/blob/main/Microservices-Architecture-Diagram.png)
 
 This diagram shows the complete microservices architecture including API Gateway, Eureka, Config Server, User Service, Activity Service, AI Service, RabbitMQ, MongoDB, Keycloak, and the React frontend.
 
